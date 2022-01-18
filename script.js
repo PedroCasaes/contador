@@ -24,7 +24,7 @@ function contar(){
     if(Number(inicio.value) < Number(fim.value)){
         //Contagem Crescente
         for(total = Number(inicio.value); total <= Number(fim.value); total = total + Number(passo.value)){
-            resultado.innerHTML += `${total} \u{1F911}`
+            resultado.innerHTML += `${total} \u{27A1}`
         }
     }else {
         //Contagem Decresciva
